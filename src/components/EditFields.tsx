@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { observer } from 'mobx-react';
-import { userStore } from '../stateManager/UsersStore';
 import AddingUserPopUp from './AddingUserPopUp';
 import { Button } from '../styled-componets/StyledComponents';
 

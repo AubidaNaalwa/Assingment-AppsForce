@@ -10,7 +10,6 @@ interface UserStore {
 
 type userKeys  = keyof user
 
-// MobX implementation
 class UserStore {
   users: user[] = [];
   filteredUsers: user[] = [];

@@ -1,7 +1,6 @@
 import { observer } from 'mobx-react';
-import React, { useEffect, useState } from 'react';
+import React, { useState } from 'react';
 import { userStore } from '../stateManager/UsersStore';
-import Style from '../style/userLibrary.module.css'
 import { Button } from '../styled-componets/StyledComponents';
 
 export type user = { 
